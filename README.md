@@ -30,7 +30,6 @@ Durante o estudo foram utilizadas fontes acadêmicas, documentações oficiais e
 - [📘 Miniguia de Estudos](#-miniguia-de-estudos)
 - [📚 Glossário](#-glossário)
 - [🚀 Prompts Reutilizáveis](#-prompts-reutilizáveis)
-- [📸 Evidências do Processo](#-evidências-do-processo)
 - [🧩 Insights Obtidos](#-insights-obtidos)
 - [💡 Principais Aprendizados](#-principais-aprendizados)
 - [👨‍💻 Autor](#-autor)
