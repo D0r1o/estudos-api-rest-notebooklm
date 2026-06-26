@@ -9,17 +9,35 @@
 
 ---
 
-## 📖 Sobre o Projeto
+# 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte do desafio da **DIO (Digital Innovation One)** com o objetivo de explorar o uso da **Inteligência Artificial como ferramenta de aprendizagem ativa** utilizando o **NotebookLM**.
+Este projeto foi desenvolvido como parte do desafio da **DIO (Digital Innovation One)** com o objetivo de explorar o uso da **Inteligência Artificial como ferramenta de aprendizagem ativa** por meio do **NotebookLM**.
 
-O tema escolhido foi **APIs REST**, devido à sua ampla utilização no desenvolvimento de sistemas modernos e sua relevância no mercado de tecnologia.
+O tema escolhido foi **APIs REST**, devido à sua ampla utilização no desenvolvimento de aplicações modernas, microsserviços e integrações entre sistemas.
 
-Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmicos e guias de boas práticas para construir um caderno temático capaz de consolidar conhecimentos sobre arquitetura REST, segurança, documentação, maturidade e governança de APIs.
+Durante o estudo foram utilizadas fontes acadêmicas, documentações oficiais e guias de boas práticas para construir um caderno temático capaz de consolidar conhecimentos sobre arquitetura REST, segurança, documentação, maturidade e governança de APIs.
 
 ---
 
-## 🎯 Objetivos de Estudo
+# 📑 Índice
+
+- [🎯 Objetivos de Estudo](#-objetivos-de-estudo)
+- [🧠 Competências Desenvolvidas](#-competências-desenvolvidas)
+- [🗂️ Estrutura do Repositório](#️-estrutura-do-repositório)
+- [🔎 Curadoria de Fontes](#-curadoria-de-fontes)
+- [🤖 Engenharia de Prompts](#-engenharia-de-prompts)
+- [🩹 Dificuldades Encontradas e Soluções](#-dificuldades-encontradas-e-soluções)
+- [📘 Miniguia de Estudos](#-miniguia-de-estudos)
+- [📚 Glossário](#-glossário)
+- [🚀 Prompts Reutilizáveis](#-prompts-reutilizáveis)
+- [📸 Evidências do Processo](#-evidências-do-processo)
+- [🧩 Insights Obtidos](#-insights-obtidos)
+- [💡 Principais Aprendizados](#-principais-aprendizados)
+- [👨‍💻 Autor](#-autor)
+
+---
+
+# 🎯 Objetivos de Estudo
 
 - Compreender os fundamentos das APIs REST;
 - Estudar os princípios arquiteturais definidos por Roy Fielding;
@@ -33,7 +51,7 @@ Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmic
 
 ---
 
-## 🧠 Competências Desenvolvidas
+# 🧠 Competências Desenvolvidas
 
 - Arquitetura REST;
 - Design de APIs;
@@ -47,7 +65,7 @@ Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmic
 
 ---
 
-## 🗂️ Estrutura do Repositório
+# 🗂️ Estrutura do Repositório
 
 ```bash
 📦 estudos-api-rest-notebooklm
@@ -56,21 +74,23 @@ Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmic
 ├── assets/
 │   ├── imagens/
 │   └── prints/
+│
+└── referencias/
 ```
 
 ---
 
 # 🔎 Curadoria de Fontes
 
-## Fontes Principais
+As fontes selecionadas priorizam documentação oficial, artigos acadêmicos e materiais reconhecidos pela comunidade técnica.
 
-| Fonte | Tipo |
-|--------|------|
-| Principled Design of the Modern Web Architecture (Fielding & Taylor) | Artigo Científico |
-| API Design Guide - Google Cloud | Guia Oficial |
-| OpenAPI Specification | Especificação Técnica |
-| REST Security Cheat Sheet - OWASP | Guia de Segurança |
-| Uma visão geral do HTTP - MDN | Documentação Oficial |
+| Fonte | Tipo | Link |
+|--------|------|------|
+| Principled Design of the Modern Web Architecture | Artigo Científico | https://ics.uci.edu/~fielding/pubs/dissertation/top.htm |
+| API Design Guide - Google Cloud | Guia Oficial | https://cloud.google.com/apis/design |
+| OpenAPI Specification | Especificação Técnica | https://www.openapis.org/ |
+| REST Security Cheat Sheet - OWASP | Guia de Segurança | https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html |
+| Uma visão geral do HTTP - MDN | Documentação Oficial | https://developer.mozilla.org/pt-BR/docs/Web/HTTP |
 
 ## Referências Complementares
 
@@ -78,7 +98,7 @@ Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmic
 - RFC 9457 - Problem Details for HTTP APIs;
 - OWASP API Security Top 10 (2023);
 - Richardson Maturity Model - Martin Fowler;
-- Azure Architecture Center - Microsoft Learn;
+- Microsoft Azure API Design Guidelines;
 - Swagger Documentation;
 - Artigos acadêmicos sobre design e segurança de APIs REST.
 
@@ -89,6 +109,8 @@ Ao longo do estudo, foram utilizadas documentações oficiais, artigos acadêmic
 Para conduzir as interações no NotebookLM, foi utilizada a seguinte instrução base:
 
 > **"Assuma a personalidade de um Especialista de ensino."**
+
+Esta estratégia permitiu obter respostas mais didáticas, estruturadas e aprofundadas.
 
 ---
 
@@ -103,11 +125,11 @@ Explique o conceito de API REST de forma didática, apresentando seus princípio
 - REST é um estilo arquitetural;
 - APIs REST são orientadas a recursos;
 - Recursos são identificados por URIs;
-- Os métodos HTTP representam ações sobre recursos.
+- Métodos HTTP representam ações sobre recursos.
 
 ---
 
-## Prompt 2 - Princípios Arquiteturais
+## Prompt 2 - Princípios Arquiteturais REST
 
 ```text
 Explique os princípios arquiteturais definidos por Roy Fielding para uma API REST e apresente exemplos de implementação.
@@ -136,7 +158,7 @@ Compare APIs REST, SOAP e GraphQL destacando vantagens, limitações e cenários
 |------------|-------------------------|
 | REST | Simplicidade e escalabilidade |
 | SOAP | Segurança e transações |
-| GraphQL | Flexibilidade e otimização de dados |
+| GraphQL | Flexibilidade na obtenção de dados |
 
 ---
 
@@ -183,10 +205,10 @@ Quais são as diferenças entre o RFC 7807 e o RFC 9457 no tratamento de erros e
 
 ### Principais Aprendizados
 
-- Padronização de erros;
 - Registro IANA;
 - Maior interoperabilidade;
-- Melhor suporte à extensibilidade.
+- Melhor extensibilidade;
+- Padronização global de erros.
 
 ---
 
@@ -199,10 +221,10 @@ Explique a finalidade da especificação OpenAPI e como ela contribui para o des
 ### Principais Aprendizados
 
 - API First;
-- Geração automática de documentação;
+- Documentação automatizada;
 - Governança;
 - Testes de contrato;
-- Automação.
+- Integração contínua.
 
 ---
 
@@ -210,11 +232,11 @@ Explique a finalidade da especificação OpenAPI e como ela contribui para o des
 
 | Dificuldade | Estratégia Utilizada |
 |------------|---------------------|
-| Respostas muito amplas | Refinamento dos prompts |
+| Respostas muito amplas | Refinamento progressivo dos prompts |
 | Pouca profundidade técnica | Inclusão de fontes acadêmicas |
-| Excesso de informação | Organização temática |
+| Excesso de informação | Organização temática por tópicos |
 | Respostas genéricas | Uso de persona especializada |
-| Necessidade de exemplos práticos | Solicitação explícita de casos reais |
+| Necessidade de exemplos práticos | Solicitação explícita de cenários reais |
 
 ---
 
@@ -222,7 +244,7 @@ Explique a finalidade da especificação OpenAPI e como ela contribui para o des
 
 ## O que é uma API REST?
 
-Uma API REST é uma interface de comunicação entre sistemas baseada no estilo arquitetural REST, utilizando recursos identificados por URIs e manipulados através dos métodos HTTP.
+Uma API REST é uma interface de comunicação baseada no estilo arquitetural REST, permitindo que sistemas distribuídos troquem informações utilizando recursos identificados por URIs e manipulados através de métodos HTTP.
 
 ---
 
@@ -251,11 +273,11 @@ Uma API REST é uma interface de comunicação entre sistemas baseada no estilo 
 
 ## 🔐 Boas Práticas de Segurança
 
-- Utilizar HTTPS;
+- Utilizar HTTPS/TLS;
 - Implementar autenticação robusta;
 - Aplicar autorização adequada;
 - Utilizar Rate Limiting;
-- Validar entradas;
+- Validar entradas recebidas;
 - Seguir recomendações do OWASP API Security Top 10.
 
 ---
@@ -271,7 +293,7 @@ Nível 3 → HATEOAS
 
 ---
 
-## 📚 Glossário
+# 📚 Glossário
 
 | Termo | Definição |
 |--------|-----------|
@@ -284,18 +306,18 @@ Nível 3 → HATEOAS
 | OAuth | Protocolo de autorização |
 | OpenAPI | Especificação para descrição de APIs |
 | BOLA | Vulnerabilidade de autorização em nível de objeto |
-| Rate Limiting | Limitação da quantidade de requisições |
+| Rate Limiting | Limitação do número de requisições |
 
 ---
 
 # 🚀 Prompts Reutilizáveis
 
 ```text
-Explique [conceito] de forma didática com exemplos práticos.
+Explique [conceito] de forma didática e apresente exemplos práticos.
 ```
 
 ```text
-Compare [tecnologia A] e [tecnologia B] destacando vantagens, desvantagens e cenários de uso.
+Compare [tecnologia A] e [tecnologia B] destacando vantagens, limitações e cenários de uso.
 ```
 
 ```text
@@ -314,37 +336,51 @@ Quais perguntas técnicas sobre [tema] podem ser feitas em entrevistas?
 
 # 📸 Evidências do Processo
 
-> **Observação:** As imagens abaixo representam o processo de construção do caderno temático no NotebookLM.
+## Fontes carregadas no NotebookLM
 
-## Fontes utilizadas no NotebookLM
-
-```md
 ![Fontes NotebookLM](assets/prints/fontes-notebooklm.png)
-```
+
+---
 
 ## Exemplo de Prompt
 
-```md
 ![Prompt NotebookLM](assets/prints/prompt-api-rest.png)
-```
 
-## Exemplo de Resposta
+---
 
-```md
+## Exemplo de Resposta Gerada
+
 ![Resposta NotebookLM](assets/prints/resposta-api-rest.png)
-```
+
+---
+
+## Visão Geral do Caderno Temático
+
+![Resumo Final](assets/prints/resumo-final.png)
+
+---
+
+# 🧩 Insights Obtidos
+
+Durante o desenvolvimento deste projeto foi possível perceber que APIs REST vão muito além da simples utilização de métodos HTTP.
+
+Aspectos relacionados à segurança, documentação, governança, versionamento e padronização exercem papel fundamental na construção de sistemas escaláveis e sustentáveis.
+
+Outro aprendizado importante foi compreender que ferramentas de Inteligência Artificial potencializam significativamente o processo de aprendizagem quando utilizadas de forma crítica, associadas a fontes confiáveis e complementadas pela análise humana.
 
 ---
 
 # 💡 Principais Aprendizados
 
-O desenvolvimento deste projeto permitiu consolidar conhecimentos sobre arquitetura REST, segurança, documentação, governança e boas práticas de desenvolvimento de APIs.
-
-Além do aprofundamento técnico, a experiência demonstrou como ferramentas de Inteligência Artificial podem potencializar o aprendizado quando utilizadas de forma crítica, estruturada e apoiadas por fontes confiáveis.
+- REST é um estilo arquitetural baseado em restrições;
+- Segurança deve ser considerada desde a concepção da API;
+- Documentação é parte essencial do ciclo de vida da API;
+- OpenAPI favorece automação e governança;
+- O uso de IA pode acelerar significativamente a aprendizagem técnica.
 
 ---
 
-## 👨‍💻 Autor
+# 👨‍💻 Autor
 
 **Renan Dorio**
 
