@@ -332,31 +332,6 @@ Resuma os principais pontos sobre [tema] em tópicos objetivos.
 Quais perguntas técnicas sobre [tema] podem ser feitas em entrevistas?
 ```
 
----
-
-# 📸 Evidências do Processo
-
-## Fontes carregadas no NotebookLM
-
-![Fontes NotebookLM](assets/prints/fontes-notebooklm.png)
-
----
-
-## Exemplo de Prompt
-
-![Prompt NotebookLM](assets/prints/prompt-api-rest.png)
-
----
-
-## Exemplo de Resposta Gerada
-
-![Resposta NotebookLM](assets/prints/resposta-api-rest.png)
-
----
-
-## Visão Geral do Caderno Temático
-
-![Resumo Final](assets/prints/resumo-final.png)
 
 ---
 
